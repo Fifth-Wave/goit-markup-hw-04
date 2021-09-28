@@ -359,24 +359,17 @@ img {
   margin-right: -30px;
 }
 
-/* .our-clients .item {
+.our-clients .item {
   height: 92px;
   margin-right: 30px;
   flex-basis: calc(100% / 6 - 30px);
-  /* 
-  background-image: url(../images/svg/client-yaco.svg);
-  background-repeat: no-repeat;
-  background-position: center; */
-} */
-
-/* .our-clients .link {
-} */
+}
 
 /* footer's style */
 
 .footer-style {
   padding: 60px 0;
-  background: var(--bg-hero-footer-color);
+  background-color: var(--bg-hero-footer-color);
   color: var(--text-color-third);
 }
 
@@ -391,13 +384,11 @@ img {
 
 .address-style {
   margin-top: 20px;
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
 
 .contact-link-footer {
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
@@ -459,10 +450,6 @@ img {
 .footer-social .item:hover {
   background-color: var(--accent-color);
 }
-
-.footer-social .link {
-}
-/* portfolio styles */
 
 .btn-list {
   justify-content: center;
