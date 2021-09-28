@@ -138,6 +138,23 @@ img {
   color: var(--text-color-secondary);
 }
 
+.contacts-header .link::before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.link.envelope::before {
+  background-image: url(../images/svg/envelope.svg);
+}
+
+.link.phone::before {
+  background-image: url(../images/svg/smartphone.svg);
+}
+
 .contacts-header .link:hover,
 .contacts-header .link:focus {
   color: var(--accent-color);
