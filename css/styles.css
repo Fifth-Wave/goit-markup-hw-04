@@ -167,11 +167,15 @@ img {
 /* hero section */
 
 .hero-section {
-  background: var(--bg-hero-footer-color);
+  background-color: var(--bg-hero-footer-color);
   color: var(--text-color-third);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: url(../images/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(47, 48, 58, 0.4);
 }
 
 .hero-section-heading {
